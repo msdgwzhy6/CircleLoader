@@ -14,6 +14,7 @@
 		928B09071A5CC1C90096F6ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928B09061A5CC1C90096F6ED /* Images.xcassets */; };
 		928B090A1A5CC1C90096F6ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928B09081A5CC1C90096F6ED /* LaunchScreen.xib */; };
 		928B09161A5CC1C90096F6ED /* CircleLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B09151A5CC1C90096F6ED /* CircleLoaderTests.m */; };
+		928B09211A5CC1E40096F6ED /* CircleLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B09201A5CC1E40096F6ED /* CircleLoaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		928B090F1A5CC1C90096F6ED /* CircleLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		928B09141A5CC1C90096F6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		928B09151A5CC1C90096F6ED /* CircleLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLoaderTests.m; sourceTree = "<group>"; };
+		928B091F1A5CC1E40096F6ED /* CircleLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLoaderView.h; sourceTree = "<group>"; };
+		928B09201A5CC1E40096F6ED /* CircleLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLoaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		928B08F81A5CC1C90096F6ED /* CircleLoader */ = {
 			isa = PBXGroup;
 			children = (
+				928B091F1A5CC1E40096F6ED /* CircleLoaderView.h */,
+				928B09201A5CC1E40096F6ED /* CircleLoaderView.m */,
 				928B08FD1A5CC1C90096F6ED /* AppDelegate.h */,
 				928B08FE1A5CC1C90096F6ED /* AppDelegate.m */,
 				928B09001A5CC1C90096F6ED /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928B09021A5CC1C90096F6ED /* ViewController.m in Sources */,
+				928B09211A5CC1E40096F6ED /* CircleLoaderView.m in Sources */,
 				928B08FF1A5CC1C90096F6ED /* AppDelegate.m in Sources */,
 				928B08FC1A5CC1C90096F6ED /* main.m in Sources */,
 			);
@@ -346,6 +352,7 @@
 				INFOPLIST_FILE = CircleLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "201552ad-39d6-441e-b89b-206df6e7a1e3";
 			};
 			name = Debug;
 		};
@@ -356,6 +363,7 @@
 				INFOPLIST_FILE = CircleLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "201552ad-39d6-441e-b89b-206df6e7a1e3";
 			};
 			name = Release;
 		};
